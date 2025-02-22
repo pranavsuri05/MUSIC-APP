@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOD</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://kit.fontawesome.com/fe46f2f811.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand1"><img src="logos/logo2.png" alt="Music"> Zinger-Music</li>
+        </ul>
+    </nav>
+    <div class="brand">
+        <h1>WHAT MOOD ARE YOU IN RIGHT NOW ?</h1>
+    </div>
+    <div class="btn-container">
+        <div class="btn-field" id="heart">
+            <button type="button">
+                <span class="heart">❤️</span>
+                <span class="text">ROMANCE</span>
+            </button>
+        </div>
+        <div class="btn-field2">
+            <button type="button" id="smile">
+                <span class="smile">😊</span>
+                <span class="text">Happy</span>
+            </button>
+        </div>
+        <div class="btn-field3">
+            <button type="button" id="sad">
+                <span class="sad">😔</span>
+                <span class="text">Emotional</span>
+            </button>
+        </div>
+        <div class="btn-field4">
+            <button type="button" id="celeb">
+                <span class="celeb">🥳</span>
+                <span class="text">Party</span>
+            </button>
+        </div>
+    </div>
+    <script>
+        let heart = document.getElementById("heart");
+        heart.onclick = function(){
+            window.location.href = "index2.html";
+        }
+        let smile = document.getElementById("smile");
+        smile.onclick = function(){
+            window.location.href = "index4.html";
+        }
+        let sad = document.getElementById("sad");
+        sad.onclick = function(){
+            window.location.href = "index5.html";
+        }
+        let celeb = document.getElementById("celeb");
+        celeb.onclick = function(){
+            window.location.href = "index6.html";
+        }
+    </script>
+    
+</body>
+</html>
